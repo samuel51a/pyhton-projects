@@ -10,10 +10,11 @@
 password=str(input("enter your password :"))
 ln=len(password)
 
-
+has_letter=any(char.isalpha() for char in password)
+has_number=any(char.isdigit() for char in password)
 if ln<6:
     print("Too weak")
-elif ln>=8 and password.isalnum:
+elif ln>=8 and has_letter and has_number:
     print("Strong")
 else:
     print("Moderate")

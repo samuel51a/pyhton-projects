@@ -4,7 +4,6 @@ import os
 def current_directory():  
     cwd=os.getcwd
     print(cwd)
-
 #how to retrive a part of a particular file/file sample
 def file_path(filename):
     path=os.path.abspath(filename)  #absolute path give the paths name right from your c drive 
