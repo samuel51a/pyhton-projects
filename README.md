@@ -1,4 +1,3 @@
-
 📚  Python Foundations 🧱
 
 🔍 Core Topics
